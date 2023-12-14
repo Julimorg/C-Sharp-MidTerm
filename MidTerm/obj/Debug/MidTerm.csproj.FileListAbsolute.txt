@@ -43,3 +43,12 @@ D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\Mi
 D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.csproj.CopyComplete
 D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.exe
 D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.pdb
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form10.resources
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form2.resources
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form3.resources
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form4.resources
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form5.resources
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form6.resources
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form7.resources
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form8.resources
+D:\Programming\C# project\C-Project\MidTerm_Winform\MidTerm\MidTerm\obj\Debug\MidTerm.Form9.resources
