@@ -230,12 +230,12 @@ namespace MidTerm
         }
         private void guna2Button21_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Form18());
+            //OpenChildForm(new Form18());
 
         }
         private void guna2Button20_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Form19());
+            OpenChildForm(new Form18());
 
         }
     
