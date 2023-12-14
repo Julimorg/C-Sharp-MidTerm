@@ -93,6 +93,19 @@ namespace MidTerm
                 currentFormChild.Close();
             }
         }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
         //Button Panel
        private void btnMedia_Click(object sender, EventArgs e)
         {
@@ -126,59 +139,38 @@ namespace MidTerm
             OpenChildForm(new Form7());
            
         }
-        //Toggle Panel
-        private void guna2Button6_Click(object sender, EventArgs e)
-        {
-            showSubMenu(panelPlaylistSubmenu);
-
-        }
-        private void guna2Button11_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Form8());
-
-        }
-
-        private void guna2Button10_Click(object sender, EventArgs e)
+        private void guna2Button7_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form9());
 
         }
 
-        private void guna2Button9_Click(object sender, EventArgs e)
+
+        private void guna2Button8_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form10());
 
         }
 
-        private void guna2Button8_Click(object sender, EventArgs e)
+        private void guna2Button9_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form11());
 
         }
 
-        private void guna2Button7_Click(object sender, EventArgs e)
+        private void guna2Button10_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form12());
 
         }
-        //Radio Panel
-        private void btnRadio_Click(object sender, EventArgs e)
-        {
-            showSubMenu(panelToolSubmenu);
-        }
-        private void guna2Button17_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Form13());
 
-        }
-
-        private void guna2Button16_Click(object sender, EventArgs e)
+        private void guna2Button12_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form14());
 
         }
 
-        private void guna2Button15_Click(object sender, EventArgs e)
+        private void guna2Button13_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form15());
 
@@ -190,11 +182,46 @@ namespace MidTerm
 
         }
 
-        private void guna2Button13_Click(object sender, EventArgs e)
+        private void guna2Button15_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form17());
 
         }
+
+        private void guna2Button16_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form20());
+
+        }
+
+        private void guna2Button18_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form21());
+
+        }
+
+        //Toggle Panel
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelPlaylistSubmenu);
+
+        }
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form8());
+        }
+        
+        //Radio Panel
+        private void btnRadio_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelToolSubmenu);
+        }
+        private void guna2Button17_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form13());
+
+        }
+
         //Image Button Panel
         private void guna2Button6_Click_1(object sender, EventArgs e)
         {
@@ -211,36 +238,9 @@ namespace MidTerm
             OpenChildForm(new Form19());
 
         }
-        private void guna2Button19_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Form20());
-
-        }
-        private void guna2Button18_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Form21());
-
-        }
-        private void guna2Button12_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Form22());
-
-        }
+    
         bool isExpand = false;
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

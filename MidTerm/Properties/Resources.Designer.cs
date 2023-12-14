@@ -63,6 +63,36 @@ namespace MidTerm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _371503492_288993227460799_1635698045942414849_n {
+            get {
+                object obj = ResourceManager.GetObject("371503492_288993227460799_1635698045942414849_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _377192877_685043317080210_7920567175429073453_n {
+            get {
+                object obj = ResourceManager.GetObject("377192877_685043317080210_7920567175429073453_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _377192877_685043317080210_7920567175429073453_n1 {
+            get {
+                object obj = ResourceManager.GetObject("377192877_685043317080210_7920567175429073453_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_down_24__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-down-24 (1)", resourceCulture);

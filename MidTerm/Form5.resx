@@ -117,4 +117,45 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>  private void Button1_Click(object sender, EventArgs e)
+  {
+        if (currentFormChild != null)
+      {
+          currentFormChild.Close();
+      }
+
+  }
+  private void Button2_Click(object sender, EventArgs e)
+  {
+      OpenChildForm(new Form2());
+  }
+  private void Button3_Click(object sender, EventArgs e)
+  {
+      OpenChildForm(new Form3());
+  }</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>
+     private Form currentFormChild; 
+
+     private void OpenChildForm(Form childForm)
+     {
+         if (currentFormChild != null)
+         {
+             currentFormChild.Close();
+         }
+         currentFormChild = childForm;
+         childForm.TopLevel = false;
+         childForm.FormBorderStyle = FormBorderStyle.None;
+         childForm.Dock = DockStyle.Fill;
+         MultiForm2.Controls.Add(childForm);
+         MultiForm2.Tag = childForm;
+         childForm.BringToFront();
+         childForm.Show();
+     }</value>
+  </data>
+  <metadata name="toolTip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
