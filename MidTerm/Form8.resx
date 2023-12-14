@@ -117,4 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txtbox.DefaultText" xml:space="preserve">
+    <value>Trong toggle Button việc áp dụng vào trong code rất nhiều cách (Bằng việc true/false hoặc yes/no) thì code sẽ có ra 2 trường hợp xảy ra ở trong 1 Button nhất định
+Vì vậy trong số những cách như việc tạo điều kiện (Xảy ra cùng hoặc trái ngược) thì Dark Mode hay còn gọi là chế độ tối cho phép người dùng chỉnh sửa nền và chữ phù hợp với người dùng vào các điều kiện khác nhau
+Do chỉ tồn tại 2 trường hợp yes no nên kết quả ra là Yes(Tối) hoặc No(Sáng)
+Lợi ích giúp phù họp vào các trường hợp nhất định, dễ dàng với người dùng sử dụng hơn</value>
+  </data>
+  <metadata name="DropdownInf.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>        private void lightdarkmodebtn_CheckedChanged(object sender, EventArgs e)
+        {
+            if (lightdarkmodebtn.Checked)
+            {
+                this.BackColor = Color.DimGray; //màu nền
+                DarkMode.ForeColor = Color.WhiteSmoke; //màu chữ Dark Mode
+                label1.ForeColor = Color.WhiteSmoke; //màu label1
+            }
+            else
+            {
+                this.BackColor = Color.WhiteSmoke; //màu nền
+                DarkMode.ForeColor = Color.Black; //màu chữ Dark Mode
+                label1.ForeColor = Color.Black; //màu label1
+            }
+        }</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CopyBtnCode2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAHlJREFUSEvtlAkKgCAURD1e0v0vYN3DpnxgC2L8IjB88EFzFkjQ/YcY46iZNSaI
+        KSPNlKQ2iCmDri60Qv53BVpa72T91Z6YTDo7FDy5k0BMhoN9wQbb22C7+vjeC3pBHWy9oAy2ug9d2wXv
+        PnZnJPIaS0nQDMQ0j3ML8+6oy9NQh2wAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>
