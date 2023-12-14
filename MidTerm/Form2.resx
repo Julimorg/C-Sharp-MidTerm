@@ -117,4 +117,65 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CopyBtnCode2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAHlJREFUSEvtlAkKgCAURD1e0v0vYN3DpnxgC2L8IjB88EFzFkjQ/YcY46iZNSaI
+        KSPNlKQ2iCmDri60Qv53BVpa72T91Z6YTDo7FDy5k0BMhoN9wQbb22C7+vjeC3pBHWy9oAy2ug9d2wXv
+        PnZnJPIaS0nQDMQ0j3ML8+6oy9NQh2wAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CopyBtnCode1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAHlJREFUSEvtlAkKgCAURD1e0v0vYN3DpnxgC2L8IjB88EFzFkjQ/YcY46iZNSaI
+        KSPNlKQ2iCmDri60Qv53BVpa72T91Z6YTDo7FDy5k0BMhoN9wQbb22C7+vjeC3pBHWy9oAy2ug9d2wXv
+        PnZnJPIaS0nQDMQ0j3ML8+6oy9NQh2wAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>private void TestHoverBtn_MouseHover(object sender, EventArgs e)
+{
+    Guna2Button btn = (Guna2Button)sender;
+    btn.FillColor = Color.Black; //Đổi màu Button
+}
+
+private void TestHoverBtn_MouseLeave(object sender, EventArgs e)
+{
+    Guna2Button btn = (Guna2Button)sender;
+    btn.FillColor = Color.FromArgb(94,148,255); 
+}
+</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>private void TestHoverBorder_MouseEnter(object sender, EventArgs e)
+{
+    Guna2Button btn = (Guna2Button)sender;
+    btn.FillColor = Color.White; //Đổi màu Button
+    btn.ForeColor = Color.FromArgb(94, 148, 255); //Đổi màu chữ
+    //Đổi màu border
+    btn.BorderColor = Color.FromArgb(94, 148, 255); 
+}
+
+private void TestHoverBorder_MouseLeave(object sender, EventArgs e)
+{
+    Guna2Button btn = (Guna2Button)sender;
+    btn.FillColor = Color.FromArgb(94, 148, 255);
+    btn.ForeColor = Color.White;
+    btn.BorderColor = Color.Transparent;
+}</value>
+  </data>
+  <data name="guna2TextBox1.DefaultText" xml:space="preserve">
+    <value>Hover Button: Là một event giúp người dùng nhận biết được họ đang ở trên Button nào, giúp cải thiện trải nghiệm cho người dùng.
+
+Cách sử dụng: Để có thể làm cho Button hiểu được event Hover, ta cần sử dụng 2 events:
++ MouseEnter: Event khi trỏ chuột tiến vào Button. (Thay đổi giá trị properties để Button thay đổi so với ban đầu)
++ MouseLeave: Event khi trỏ chuột rời khỏi Button. (Trả các properties về giá trị ban đầu)
+
+</value>
+  </data>
+  <metadata name="DropdownInf.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
