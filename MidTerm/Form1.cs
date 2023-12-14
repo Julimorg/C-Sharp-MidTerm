@@ -16,36 +16,9 @@ namespace MidTerm
         public Form1()
         {
             InitializeComponent();
+            customizeDesign();
         }
-
-        bool isExpand = false;
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if(isExpand == false)
-            {
-                MenuDropDown.Height += 1000;
-
-                if (MenuDropDown.Height >= MenuDropDown.MaximumSize.Height) 
-                {
-                    timer1.Stop();
-                    isExpand = true;
-                   
-                }
-            }
-           else
-            {
-                MenuDropDown.Height -= 1000;
-                if(MenuDropDown.Height >= MenuDropDown.MinimumSize.Height)
-                {
-                     
-                    timer1.Stop();
-                    isExpand = false; 
-                }
-            }
-
-        }
-        /*Setting multi panel child content*/
+ /*Setting multi panel child content*/
         //Panel child content 
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
@@ -64,71 +37,202 @@ namespace MidTerm
             childForm.Show();
         } 
        
-        private void ButtonSelect_Click(object sender, EventArgs e)
+        private void customizeDesign()
+        {
+            panelMediaSubmenu.Visible =false;
+            panelPlaylistSubmenu.Visible =false;
+            panelToolSubmenu.Visible =false;
+            panelImageSubmenu.Visible = false;
+
+        }
+        private void hideSubMenu()
+        {
+            if(panelMediaSubmenu.Visible == true)
+            {
+                panelMediaSubmenu.Visible = false;
+            }
+            if(panelPlaylistSubmenu.Visible == true)
+            {
+                panelPlaylistSubmenu.Visible = false;
+            }
+            if (panelToolSubmenu.Visible == true)
+            { 
+                panelToolSubmenu.Visible = false;
+            }
+            if(panelImageSubmenu.Visible == true)
+            {
+                panelImageSubmenu.Visible = false;
+
+            }
+        }
+        private void showSubMenu(Panel subMenu)
+        {
+            if(subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
+
+        }  
+        //Default panel
+        private void label1_Click(object sender, EventArgs e)
         {
             if (currentFormChild != null)
             {
                 currentFormChild.Close();
             }
-            timer1.Start();
-
         }
-         private void Button2_Click(object sender, EventArgs e)
+        private void HeadSideBar_Paint(object sender, PaintEventArgs e)
+        {
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+        }
+        //Button Panel
+       private void btnMedia_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelMediaSubmenu);
+        } 
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form2());
-
+           
         }
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Form3());
-
-        }
-
-        private void Button4_Click(object sender, EventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form4());
-
+           
         }
 
-        private void Button5_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form5());
-
+           
         }
 
-        private void Button6_Click(object sender, EventArgs e)
+        private void guna2Button4_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form6());
-
+           
         }
 
-        private void Button7_Click(object sender, EventArgs e)
+        private void guna2Button5_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form7());
+           
+        }
+        //Toggle Panel
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelPlaylistSubmenu);
 
         }
-
-        private void Button8_Click(object sender, EventArgs e)
+        private void guna2Button11_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form8());
 
         }
 
-        private void Button9_Click(object sender, EventArgs e)
+        private void guna2Button10_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form9());
 
         }
 
-        private void Button10_Click(object sender, EventArgs e)
+        private void guna2Button9_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form10());
 
         }
 
-        private void Button11_Click(object sender, EventArgs e)
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form11());
+
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form12());
+
+        }
+        //Radio Panel
+        private void btnRadio_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelToolSubmenu);
+        }
+        private void guna2Button17_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form13());
+
+        }
+
+        private void guna2Button16_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form14());
+
+        }
+
+        private void guna2Button15_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form15());
+
+        }
+
+        private void guna2Button14_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form16());
+
+        }
+
+        private void guna2Button13_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form17());
+
+        }
+        //Image Button Panel
+        private void guna2Button6_Click_1(object sender, EventArgs e)
+        {
+            showSubMenu(panelImageSubmenu);
+
+        }
+        private void guna2Button21_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form18());
+
+        }
+        private void guna2Button20_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form19());
+
+        }
+        private void guna2Button19_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form20());
+
+        }
+        private void guna2Button18_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form21());
+
+        }
+        private void guna2Button12_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form22());
+
+        }
+        bool isExpand = false;
+
+        private void timer1_Tick(object sender, EventArgs e)
         {
 
         }
+
+      
     }
 }
