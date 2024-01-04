@@ -59,8 +59,10 @@ namespace MidTerm
 
         private void Form13_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'universityDataSet.Users' table. You can move, or remove it, as needed.
+            this.usersTableAdapter.Fill(this.universityDataSet.Users);
             // TODO: This line of code loads data into the 'dBUniversityDataSet.Users' table. You can move, or remove it, as needed.
-            this.usersTableAdapter.Fill(this.dBUniversityDataSet.Users);
+            //this.usersTableAdapter.Fill(this.dBUniversityDataSet.Users);
 
         }
 

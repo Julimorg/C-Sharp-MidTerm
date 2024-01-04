@@ -16,5 +16,34 @@ namespace MidTerm
         {
             InitializeComponent();
         }
+        private void btnCopy_Click(object sender, EventArgs e)
+        {
+
+            string dataToCopy = txtdata.Text;
+            if (!string.IsNullOrEmpty(dataToCopy))
+            {
+                Clipboard.SetText(dataToCopy);
+
+                MessageBox.Show("Copied to Clipboard!");
+            }
+            else
+            {
+                MessageBox.Show("Please enter data before copying.");
+            }
+        }
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            string dataToCopy = rTB.Text;
+            if (!string.IsNullOrEmpty(dataToCopy))
+            {
+                Clipboard.SetText(dataToCopy);
+
+                MessageBox.Show("Copied to Clipboard!");
+            }
+            else
+            {
+                MessageBox.Show("Please enter data before copying.");
+            }
+        }
     }
 }

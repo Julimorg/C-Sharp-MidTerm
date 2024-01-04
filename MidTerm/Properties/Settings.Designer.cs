@@ -33,5 +33,16 @@ namespace MidTerm.Properties {
                 return ((string)(this["DBUniversityConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-JM228I7\\MSSQLSERVER2022;Initial Catalog=University;Integrated" +
+            " Security=True")]
+        public string UniversityConnectionString {
+            get {
+                return ((string)(this["UniversityConnectionString"]));
+            }
+        }
     }
 }

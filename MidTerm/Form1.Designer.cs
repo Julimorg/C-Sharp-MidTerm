@@ -33,12 +33,14 @@
             this.panelImageSubmenu = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button20 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button21 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.panelToolSubmenu = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button17 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRadio = new Guna.UI2.WinForms.Guna2Button();
             this.panelPlaylistSubmenu = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnToggle = new Guna.UI2.WinForms.Guna2Button();
             this.panelMediaSubmenu = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button18 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
@@ -55,6 +57,7 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMedia = new Guna.UI2.WinForms.Guna2Button();
             this.HeadSideBar = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panelchild = new Guna.UI2.WinForms.Guna2Panel();
@@ -63,10 +66,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnRadio = new Guna.UI2.WinForms.Guna2Button();
-            this.btnToggle = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMedia = new Guna.UI2.WinForms.Guna2Button();
             this.sideBar.SuspendLayout();
             this.panelImageSubmenu.SuspendLayout();
             this.panelToolSubmenu.SuspendLayout();
@@ -101,7 +100,6 @@
             this.panelImageSubmenu.BackColor = System.Drawing.Color.Gainsboro;
             this.panelImageSubmenu.Controls.Add(this.guna2Panel3);
             this.panelImageSubmenu.Controls.Add(this.guna2Button20);
-            this.panelImageSubmenu.Controls.Add(this.guna2Button21);
             this.panelImageSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelImageSubmenu.Location = new System.Drawing.Point(0, 947);
             this.panelImageSubmenu.Margin = new System.Windows.Forms.Padding(4);
@@ -113,7 +111,7 @@
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.Gainsboro;
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 72);
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 36);
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(392, 347);
@@ -132,7 +130,7 @@
             this.guna2Button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button20.ForeColor = System.Drawing.Color.White;
             this.guna2Button20.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button20.Location = new System.Drawing.Point(0, 36);
+            this.guna2Button20.Location = new System.Drawing.Point(0, 0);
             this.guna2Button20.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button20.Name = "guna2Button20";
             this.guna2Button20.Size = new System.Drawing.Size(392, 36);
@@ -142,28 +140,29 @@
             this.guna2Button20.UseTransparentBackground = true;
             this.guna2Button20.Click += new System.EventHandler(this.guna2Button20_Click);
             // 
-            // guna2Button21
+            // guna2Button6
             // 
-            this.guna2Button21.Animated = true;
-            this.guna2Button21.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button21.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button21.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button21.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button21.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button21.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button21.FillColor = System.Drawing.Color.Gray;
-            this.guna2Button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.guna2Button21.ForeColor = System.Drawing.Color.White;
-            this.guna2Button21.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button21.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button21.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2Button21.Name = "guna2Button21";
-            this.guna2Button21.Size = new System.Drawing.Size(392, 36);
-            this.guna2Button21.TabIndex = 3;
-            this.guna2Button21.Text = "Types";
-            this.guna2Button21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button21.UseTransparentBackground = true;
-            this.guna2Button21.Click += new System.EventHandler(this.guna2Button21_Click);
+            this.guna2Button6.Animated = true;
+            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.BorderRadius = 5;
+            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Button6.FillColor = System.Drawing.Color.Gray;
+            this.guna2Button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.Image = global::MidTerm.Properties.Resources.icons8_down_24__1_;
+            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button6.Location = new System.Drawing.Point(0, 878);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.Size = new System.Drawing.Size(392, 69);
+            this.guna2Button6.TabIndex = 7;
+            this.guna2Button6.Text = "Image Button";
+            this.guna2Button6.UseTransparentBackground = true;
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click_1);
             // 
             // panelToolSubmenu
             // 
@@ -210,6 +209,30 @@
             this.guna2Button17.UseTransparentBackground = true;
             this.guna2Button17.Click += new System.EventHandler(this.guna2Button17_Click);
             // 
+            // btnRadio
+            // 
+            this.btnRadio.Animated = true;
+            this.btnRadio.BackColor = System.Drawing.Color.Transparent;
+            this.btnRadio.BorderRadius = 5;
+            this.btnRadio.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRadio.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRadio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRadio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRadio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRadio.FillColor = System.Drawing.Color.Gray;
+            this.btnRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnRadio.ForeColor = System.Drawing.Color.White;
+            this.btnRadio.Image = global::MidTerm.Properties.Resources.icons8_down_24__1_;
+            this.btnRadio.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnRadio.Location = new System.Drawing.Point(0, 777);
+            this.btnRadio.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRadio.Name = "btnRadio";
+            this.btnRadio.Size = new System.Drawing.Size(392, 69);
+            this.btnRadio.TabIndex = 5;
+            this.btnRadio.Text = "Radio Button";
+            this.btnRadio.UseTransparentBackground = true;
+            this.btnRadio.Click += new System.EventHandler(this.btnRadio_Click);
+            // 
             // panelPlaylistSubmenu
             // 
             this.panelPlaylistSubmenu.BackColor = System.Drawing.Color.Gainsboro;
@@ -243,6 +266,30 @@
             this.guna2Button11.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button11.UseTransparentBackground = true;
             this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
+            // 
+            // btnToggle
+            // 
+            this.btnToggle.Animated = true;
+            this.btnToggle.BackColor = System.Drawing.Color.Transparent;
+            this.btnToggle.BorderRadius = 5;
+            this.btnToggle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnToggle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnToggle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnToggle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnToggle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnToggle.FillColor = System.Drawing.Color.Gray;
+            this.btnToggle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnToggle.ForeColor = System.Drawing.Color.White;
+            this.btnToggle.Image = global::MidTerm.Properties.Resources.icons8_down_24__1_;
+            this.btnToggle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnToggle.Location = new System.Drawing.Point(0, 672);
+            this.btnToggle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnToggle.Name = "btnToggle";
+            this.btnToggle.Size = new System.Drawing.Size(392, 69);
+            this.btnToggle.TabIndex = 3;
+            this.btnToggle.Text = "Toggle Button";
+            this.btnToggle.UseTransparentBackground = true;
+            this.btnToggle.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // panelMediaSubmenu
             // 
@@ -287,7 +334,7 @@
             this.guna2Button18.Name = "guna2Button18";
             this.guna2Button18.Size = new System.Drawing.Size(392, 36);
             this.guna2Button18.TabIndex = 17;
-            this.guna2Button18.Text = "• Bordet Button Style";
+            this.guna2Button18.Text = "• ";
             this.guna2Button18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button18.UseTransparentBackground = true;
             this.guna2Button18.Click += new System.EventHandler(this.guna2Button18_Click);
@@ -310,7 +357,7 @@
             this.guna2Button16.Name = "guna2Button16";
             this.guna2Button16.Size = new System.Drawing.Size(392, 36);
             this.guna2Button16.TabIndex = 16;
-            this.guna2Button16.Text = "• Bordet Button Style";
+            this.guna2Button16.Text = "• ";
             this.guna2Button16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button16.UseTransparentBackground = true;
             this.guna2Button16.Click += new System.EventHandler(this.guna2Button16_Click);
@@ -333,7 +380,7 @@
             this.guna2Button15.Name = "guna2Button15";
             this.guna2Button15.Size = new System.Drawing.Size(392, 36);
             this.guna2Button15.TabIndex = 15;
-            this.guna2Button15.Text = "• Bordet Button Style";
+            this.guna2Button15.Text = "• ";
             this.guna2Button15.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button15.UseTransparentBackground = true;
             this.guna2Button15.Click += new System.EventHandler(this.guna2Button15_Click);
@@ -356,7 +403,7 @@
             this.guna2Button14.Name = "guna2Button14";
             this.guna2Button14.Size = new System.Drawing.Size(392, 36);
             this.guna2Button14.TabIndex = 14;
-            this.guna2Button14.Text = "• Bordet Button Style";
+            this.guna2Button14.Text = "• Visible Controller";
             this.guna2Button14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button14.UseTransparentBackground = true;
             this.guna2Button14.Click += new System.EventHandler(this.guna2Button14_Click);
@@ -379,7 +426,7 @@
             this.guna2Button13.Name = "guna2Button13";
             this.guna2Button13.Size = new System.Drawing.Size(392, 36);
             this.guna2Button13.TabIndex = 13;
-            this.guna2Button13.Text = "• Bordet Button Style";
+            this.guna2Button13.Text = "• Click reset text box";
             this.guna2Button13.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button13.UseTransparentBackground = true;
             this.guna2Button13.Click += new System.EventHandler(this.guna2Button13_Click);
@@ -402,7 +449,7 @@
             this.guna2Button12.Name = "guna2Button12";
             this.guna2Button12.Size = new System.Drawing.Size(392, 36);
             this.guna2Button12.TabIndex = 12;
-            this.guna2Button12.Text = "• Bordet Button Style";
+            this.guna2Button12.Text = "• Click sao chép text box";
             this.guna2Button12.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button12.UseTransparentBackground = true;
             this.guna2Button12.Click += new System.EventHandler(this.guna2Button12_Click);
@@ -425,7 +472,7 @@
             this.guna2Button10.Name = "guna2Button10";
             this.guna2Button10.Size = new System.Drawing.Size(392, 36);
             this.guna2Button10.TabIndex = 11;
-            this.guna2Button10.Text = "• Bordet Button Style";
+            this.guna2Button10.Text = "• Text Controller";
             this.guna2Button10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button10.UseTransparentBackground = true;
             this.guna2Button10.Click += new System.EventHandler(this.guna2Button10_Click);
@@ -448,7 +495,7 @@
             this.guna2Button9.Name = "guna2Button9";
             this.guna2Button9.Size = new System.Drawing.Size(392, 36);
             this.guna2Button9.TabIndex = 10;
-            this.guna2Button9.Text = "• Bordet Button Style";
+            this.guna2Button9.Text = "• Enabled Controller";
             this.guna2Button9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button9.UseTransparentBackground = true;
             this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
@@ -471,7 +518,7 @@
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.Size = new System.Drawing.Size(392, 36);
             this.guna2Button8.TabIndex = 9;
-            this.guna2Button8.Text = "• Bordet Button Style";
+            this.guna2Button8.Text = "• Click thay đổi button";
             this.guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button8.UseTransparentBackground = true;
             this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
@@ -494,7 +541,7 @@
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(392, 36);
             this.guna2Button7.TabIndex = 8;
-            this.guna2Button7.Text = "• Click đổi kích thước";
+            this.guna2Button7.Text = "• Size Controller";
             this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button7.UseTransparentBackground = true;
             this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
@@ -609,10 +656,34 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(392, 36);
             this.guna2Button1.TabIndex = 3;
-            this.guna2Button1.Text = "• Hover ";
+            this.guna2Button1.Text = "• Hover thay đổi Button";
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // btnMedia
+            // 
+            this.btnMedia.Animated = true;
+            this.btnMedia.BackColor = System.Drawing.Color.Transparent;
+            this.btnMedia.BorderRadius = 5;
+            this.btnMedia.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMedia.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMedia.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMedia.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMedia.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMedia.FillColor = System.Drawing.Color.Gray;
+            this.btnMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnMedia.ForeColor = System.Drawing.Color.White;
+            this.btnMedia.Image = global::MidTerm.Properties.Resources.icons8_down_24__1_;
+            this.btnMedia.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnMedia.Location = new System.Drawing.Point(0, 69);
+            this.btnMedia.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMedia.Name = "btnMedia";
+            this.btnMedia.Size = new System.Drawing.Size(392, 69);
+            this.btnMedia.TabIndex = 2;
+            this.btnMedia.Text = "Button";
+            this.btnMedia.UseTransparentBackground = true;
+            this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
             // 
             // HeadSideBar
             // 
@@ -650,17 +721,17 @@
             this.panelchild.Location = new System.Drawing.Point(392, 0);
             this.panelchild.Margin = new System.Windows.Forms.Padding(4);
             this.panelchild.Name = "panelchild";
-            this.panelchild.Size = new System.Drawing.Size(1532, 1055);
+            this.panelchild.Size = new System.Drawing.Size(1507, 1055);
             this.panelchild.TabIndex = 1;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Montserrat SemiBold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(563, 204);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(442, 91);
+            this.label6.Size = new System.Drawing.Size(462, 111);
             this.label6.TabIndex = 4;
             this.label6.Text = "TUTORIAL";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -668,33 +739,33 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Montserrat SemiBold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(155, 204);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(374, 91);
+            this.label5.Size = new System.Drawing.Size(398, 111);
             this.label5.TabIndex = 3;
             this.label5.Text = "BUTTON";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Montserrat SemiBold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(764, 54);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 91);
+            this.label3.Size = new System.Drawing.Size(161, 111);
             this.label3.TabIndex = 1;
             this.label3.Text = "TO";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Montserrat SemiBold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(251, 54);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(481, 91);
+            this.label7.Size = new System.Drawing.Size(515, 111);
             this.label7.TabIndex = 0;
             this.label7.Text = "WELCOME ";
             this.label7.Click += new System.EventHandler(this.label2_Click);
@@ -704,114 +775,19 @@
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // guna2Button6
-            // 
-            this.guna2Button6.Animated = true;
-            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.BorderRadius = 5;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button6.FillColor = System.Drawing.Color.Gray;
-            this.guna2Button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Image = global::MidTerm.Properties.Resources.icons8_down_24__1_;
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button6.Location = new System.Drawing.Point(0, 878);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(392, 69);
-            this.guna2Button6.TabIndex = 7;
-            this.guna2Button6.Text = "Image Button";
-            this.guna2Button6.UseTransparentBackground = true;
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click_1);
-            // 
-            // btnRadio
-            // 
-            this.btnRadio.Animated = true;
-            this.btnRadio.BackColor = System.Drawing.Color.Transparent;
-            this.btnRadio.BorderRadius = 5;
-            this.btnRadio.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnRadio.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnRadio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnRadio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRadio.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnRadio.FillColor = System.Drawing.Color.Gray;
-            this.btnRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnRadio.ForeColor = System.Drawing.Color.White;
-            this.btnRadio.Image = global::MidTerm.Properties.Resources.icons8_down_24__1_;
-            this.btnRadio.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnRadio.Location = new System.Drawing.Point(0, 777);
-            this.btnRadio.Margin = new System.Windows.Forms.Padding(4);
-            this.btnRadio.Name = "btnRadio";
-            this.btnRadio.Size = new System.Drawing.Size(392, 69);
-            this.btnRadio.TabIndex = 5;
-            this.btnRadio.Text = "Radio Button";
-            this.btnRadio.UseTransparentBackground = true;
-            this.btnRadio.Click += new System.EventHandler(this.btnRadio_Click);
-            // 
-            // btnToggle
-            // 
-            this.btnToggle.Animated = true;
-            this.btnToggle.BackColor = System.Drawing.Color.Transparent;
-            this.btnToggle.BorderRadius = 5;
-            this.btnToggle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnToggle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnToggle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnToggle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnToggle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnToggle.FillColor = System.Drawing.Color.Gray;
-            this.btnToggle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnToggle.ForeColor = System.Drawing.Color.White;
-            this.btnToggle.Image = global::MidTerm.Properties.Resources.icons8_down_24__1_;
-            this.btnToggle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnToggle.Location = new System.Drawing.Point(0, 672);
-            this.btnToggle.Margin = new System.Windows.Forms.Padding(4);
-            this.btnToggle.Name = "btnToggle";
-            this.btnToggle.Size = new System.Drawing.Size(392, 69);
-            this.btnToggle.TabIndex = 3;
-            this.btnToggle.Text = "Toggle Button";
-            this.btnToggle.UseTransparentBackground = true;
-            this.btnToggle.Click += new System.EventHandler(this.guna2Button6_Click);
-            // 
-            // btnMedia
-            // 
-            this.btnMedia.Animated = true;
-            this.btnMedia.BackColor = System.Drawing.Color.Transparent;
-            this.btnMedia.BorderRadius = 5;
-            this.btnMedia.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMedia.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMedia.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMedia.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMedia.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnMedia.FillColor = System.Drawing.Color.Gray;
-            this.btnMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnMedia.ForeColor = System.Drawing.Color.White;
-            this.btnMedia.Image = global::MidTerm.Properties.Resources.icons8_down_24__1_;
-            this.btnMedia.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnMedia.Location = new System.Drawing.Point(0, 69);
-            this.btnMedia.Margin = new System.Windows.Forms.Padding(4);
-            this.btnMedia.Name = "btnMedia";
-            this.btnMedia.Size = new System.Drawing.Size(392, 69);
-            this.btnMedia.TabIndex = 2;
-            this.btnMedia.Text = "Button";
-            this.btnMedia.UseTransparentBackground = true;
-            this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.ClientSize = new System.Drawing.Size(1899, 1055);
             this.Controls.Add(this.panelchild);
             this.Controls.Add(this.sideBar);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.MinimumSize = new System.Drawing.Size(1917, 1018);
+            this.MinimumSize = new System.Drawing.Size(1800, 1000);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.sideBar.ResumeLayout(false);
             this.panelImageSubmenu.ResumeLayout(false);
             this.panelToolSubmenu.ResumeLayout(false);
@@ -848,16 +824,11 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel panelImageSubmenu;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2Button guna2Button20;
-        private Guna.UI2.WinForms.Guna2Button guna2Button21;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button18;
-        private Guna.UI2.WinForms.Guna2Button guna2Button16;
-        private Guna.UI2.WinForms.Guna2Button guna2Button15;
         private Guna.UI2.WinForms.Guna2Button guna2Button14;
         private Guna.UI2.WinForms.Guna2Button guna2Button13;
         private Guna.UI2.WinForms.Guna2Button guna2Button12;
@@ -865,6 +836,10 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button18;
+        private Guna.UI2.WinForms.Guna2Button guna2Button16;
+        private Guna.UI2.WinForms.Guna2Button guna2Button15;
     }
 }
 

@@ -16,5 +16,24 @@ namespace MidTerm
         {
             InitializeComponent();
         }
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txtData.Text = "";
+            txtData.Focus();
+        }
+        private void btnCp2_Click(object sender, EventArgs e)
+        {
+            string dataToCopy = rTB.Text;
+            if (!string.IsNullOrEmpty(dataToCopy))
+            {
+                Clipboard.SetText(dataToCopy);
+
+                MessageBox.Show("Đã sao chép");
+            }
+            else
+            {
+                MessageBox.Show("Please enter data before copying.");
+            }
+        }
     }
 }

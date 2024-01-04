@@ -63,6 +63,16 @@ namespace MidTerm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _323553 {
+            get {
+                object obj = ResourceManager.GetObject("323553", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _371503492_288993227460799_1635698045942414849_n {
             get {
                 object obj = ResourceManager.GetObject("371503492_288993227460799_1635698045942414849_n", resourceCulture);

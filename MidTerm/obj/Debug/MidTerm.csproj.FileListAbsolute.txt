@@ -277,3 +277,27 @@ O:\Code\C# Window Form Applications\Test clone\C-Sharp-MidTerm\MidTerm\obj\Debug
 O:\Code\C# Window Form Applications\Test clone\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.csproj.CopyComplete
 O:\Code\C# Window Form Applications\Test clone\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.exe
 O:\Code\C# Window Form Applications\Test clone\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.pdb
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form13.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form18.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form24.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form25.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form11.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form12.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form14.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form15.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Form16.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\MidTerm.Container.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\WindowsForm_Midterm.TextBoxControl.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\ComboBox.ComboBoxForm.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.demo_label_click.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.LableForm.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormAutoSizeChanged.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormBackgroundImageChanged.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormBorderStyless.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormClick.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormHover.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormImageList.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormkeyDownPressUp.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormLabel_MouseLeave_Event.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormTextAlign.resources
+C:\Users\NAK\source\repos\C-Sharp-MidTerm\MidTerm\obj\Debug\midterm_trungthanh.FormTextChangedEvent.resources

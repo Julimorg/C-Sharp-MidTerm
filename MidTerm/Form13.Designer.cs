@@ -36,12 +36,13 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.passwordDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.roleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pinDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.usersBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
+            this.universityDataSet = new MidTerm.UniversityDataSet();
             this.usersBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
-            this.dBUniversityDataSet = new MidTerm.DBUniversityDataSet();
             this.AdminBtn = new System.Windows.Forms.RadioButton();
             this.StudentBtn = new System.Windows.Forms.RadioButton();
             this.AcademicBtn = new System.Windows.Forms.RadioButton();
@@ -52,11 +53,12 @@
             this.usersBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.usersBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.usersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.usersTableAdapter = new MidTerm.DBUniversityDataSetTableAdapters.UsersTableAdapter();
+            this.usersTableAdapter = new MidTerm.UniversityDataSetTableAdapters.UsersTableAdapter();
             this.Code2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource1)).BeginInit();
@@ -117,7 +119,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Arial", 10.2F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(299, 425);
+            this.guna2TextBox1.Location = new System.Drawing.Point(299, 411);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Multiline = true;
             this.guna2TextBox1.Name = "guna2TextBox1";
@@ -144,11 +146,11 @@
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.passwordDataGridViewTextBoxColumn,
-            this.roleDataGridViewTextBoxColumn,
-            this.pinDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.usersBindingSource4;
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4});
+            this.dataGridView1.DataSource = this.usersBindingSource5;
             this.dataGridView1.Location = new System.Drawing.Point(299, 191);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -156,47 +158,51 @@
             this.dataGridView1.Size = new System.Drawing.Size(568, 203);
             this.dataGridView1.TabIndex = 31;
             // 
-            // idDataGridViewTextBoxColumn
+            // dataGridViewTextBoxColumn1
             // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.Width = 125;
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "id";
+            this.dataGridViewTextBoxColumn1.HeaderText = "id";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 125;
             // 
-            // passwordDataGridViewTextBoxColumn
+            // dataGridViewTextBoxColumn2
             // 
-            this.passwordDataGridViewTextBoxColumn.DataPropertyName = "password_";
-            this.passwordDataGridViewTextBoxColumn.HeaderText = "password_";
-            this.passwordDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.passwordDataGridViewTextBoxColumn.Name = "passwordDataGridViewTextBoxColumn";
-            this.passwordDataGridViewTextBoxColumn.Width = 125;
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "password_";
+            this.dataGridViewTextBoxColumn2.HeaderText = "password_";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 125;
             // 
-            // roleDataGridViewTextBoxColumn
+            // dataGridViewTextBoxColumn3
             // 
-            this.roleDataGridViewTextBoxColumn.DataPropertyName = "role_";
-            this.roleDataGridViewTextBoxColumn.HeaderText = "role_";
-            this.roleDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.roleDataGridViewTextBoxColumn.Name = "roleDataGridViewTextBoxColumn";
-            this.roleDataGridViewTextBoxColumn.Width = 125;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "role_";
+            this.dataGridViewTextBoxColumn3.HeaderText = "role_";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 125;
             // 
-            // pinDataGridViewTextBoxColumn
+            // dataGridViewTextBoxColumn4
             // 
-            this.pinDataGridViewTextBoxColumn.DataPropertyName = "pin";
-            this.pinDataGridViewTextBoxColumn.HeaderText = "pin";
-            this.pinDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.pinDataGridViewTextBoxColumn.Name = "pinDataGridViewTextBoxColumn";
-            this.pinDataGridViewTextBoxColumn.Width = 125;
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "pin";
+            this.dataGridViewTextBoxColumn4.HeaderText = "pin";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 125;
+            // 
+            // usersBindingSource5
+            // 
+            this.usersBindingSource5.DataMember = "Users";
+            this.usersBindingSource5.DataSource = this.universityDataSet;
+            // 
+            // universityDataSet
+            // 
+            this.universityDataSet.DataSetName = "UniversityDataSet";
+            this.universityDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // usersBindingSource4
             // 
             this.usersBindingSource4.DataMember = "Users";
-            this.usersBindingSource4.DataSource = this.dBUniversityDataSet;
-            // 
-            // dBUniversityDataSet
-            // 
-            this.dBUniversityDataSet.DataSetName = "DBUniversityDataSet";
-            this.dBUniversityDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // AdminBtn
             // 
@@ -299,6 +305,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1067, 884);
             this.Controls.Add(this.Code2);
             this.Controls.Add(this.label2);
@@ -316,8 +323,9 @@
             this.Load += new System.EventHandler(this.Form13_Load);
             this.Code2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource1)).EndInit();
@@ -345,12 +353,19 @@
         private System.Windows.Forms.RadioButton AcademicBtn;
         private System.Windows.Forms.RadioButton LectureBtn;
         private System.Windows.Forms.RadioButton AllStudentBtn;
-        private DBUniversityDataSet dBUniversityDataSet;
+        //private DBUniversityDataSet dBUniversityDataSet;
         private System.Windows.Forms.BindingSource usersBindingSource4;
-        private DBUniversityDataSetTableAdapters.UsersTableAdapter usersTableAdapter;
+        //private DBUniversityDataSetTableAdapters.UsersTableAdapter usersTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn passwordDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn roleDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn pinDataGridViewTextBoxColumn;
+        private UniversityDataSet universityDataSet;
+        private System.Windows.Forms.BindingSource usersBindingSource5;
+        private UniversityDataSetTableAdapters.UsersTableAdapter usersTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
     }
 }

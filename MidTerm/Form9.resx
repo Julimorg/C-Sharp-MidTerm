@@ -118,6 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="guna2Button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAJRJREFUSEvtjtsNgCAMRVnAmXQV4yDy6QzMpiMYR8BLcjGmlhgen5zkJkDbU0wn
+        4L1fkAO5EIcMLNUDmUUkjuV6INMWnCyXA8nIo7ZkZ6kMCKLQ8kkumfmcD4blb+WS554NBRobW8qBJCWP
+        TGzNB8N/8pWt+WC4y79guMt1KElRJw9QpFEvD1AmaSMPUPimnbyjY8wN2IQhp7t+U0UAAAAASUVORK5C
+        YII=
+</value>
+  </data>
   <data name="guna2Button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAohJREFUaEPt
@@ -166,6 +175,7 @@
   </data>
   <data name="SizeChanged.Text" xml:space="preserve">
     <value>SizeChanged: Sự kiện này cho phép thay đổi được kích thước của một đối tượng 
+
 =&gt; Khi kích thước thay đổi, ta có thể thực hiện các hoạt động cụ thể như điều 
 chỉnh lại giao diện, làm mới dữ liệu hoặc thay đổi các thuộc tính liên quan tới 
 kích thước</value>

@@ -55,5 +55,20 @@ namespace MidTerm
 			}*/
 			MessageBox.Show("Button này phống lớn của sổ");
 		}
-	}
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            string dataToCopy = richTextBox1.Text;
+            if (!string.IsNullOrEmpty(dataToCopy))
+            {
+                Clipboard.SetText(dataToCopy);
+
+                MessageBox.Show("Đã sao chép");
+            }
+            else
+            {
+                MessageBox.Show("Please enter data before copying.");
+            }
+        }
+    }
 }

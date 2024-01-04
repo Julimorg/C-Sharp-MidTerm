@@ -63,16 +63,28 @@ namespace MidTerm
 				}
 				isEditing = false;
 				button1.Size = new Size(Width, Height);
-				int diff = Width - default_Width;
-				if (diff > 0)
+				int diffW = Width - default_Width;
+				int diffH = Height - default_Height;
+				if (diffW > 0)
 				{
-					button1.Location = new Point(button1.Location.X - diff, button1.Location.Y);
+					button1.Location = new Point(button1.Location.X - diffW/2, button1.Location.Y);
 				}
-				else if (diff < 0)
+				else if (diffW < 0)
 				{
-					button1.Location = new Point(button1.Location.X + diff, button1.Location.Y);
+					button1.Location = new Point(button1.Location.X + -(diffW / 2), button1.Location.Y);
 				}
-			}
+                if (diffH > 0)
+                {
+                    button1.Location = new Point(button1.Location.X , button1.Location.Y - diffH/2);
+                }
+                else if (diffH < 0)
+                {
+                    button1.Location = new Point(button1.Location.X , button1.Location.Y + -(diffH/2));
+                }
+				default_Width = Width;
+                default_Height = Height;
+
+            }
 			catch
 			{
 				MessageBox.Show("ERROR!");
@@ -107,6 +119,7 @@ namespace MidTerm
 		{
 			richTextBox1.Text = default_W;
 			richTextBox2.Text = default_H;
+			isEditing = true;
 			guna2Button3_Click(sender, e);
 		}
 
